@@ -34,7 +34,8 @@
 // =============================================
 
 // Change this to your backend URL when ready
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://10.150.7.2:5000'
+// Change this to your backend URL when ready
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://kuhirasmartly.onrender.com'
 
 // ── REAL API CALL (use when backend is ready) ──
 export async function predictIrrigation(formData) {
